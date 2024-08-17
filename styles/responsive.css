@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    .banner, .habit-items, .run-content{
+    .banner, .habit-items, .run-content, .bmi{
         flex-direction: column;
     }
     /* common style */
@@ -22,13 +22,25 @@
       }
       .banner-title{
         font-weight: 900;
-        /* modify it as my own */
+        /* modify it on my own */
         font-size: 3.25rem;
+      }
+      .banner-image-number{
+        font-weight: 900;
+        font-size: 1.8rem;
+      }
+      .banner-image-text{
+        font-weight: 400;
+        font-size: 10px;
       }
     .banner-img-text-one{
         bottom: 63px;
         left: -90px;
         margin-left: 12px;
+      }
+      .banner-img-text-two{
+        right: 2px;
+        bottom: 440px;
       }
     /* habit part */
     .habit-part{
@@ -36,9 +48,6 @@
     }
     .habit-title-description{
         padding: 0 10px;
-    }
-    .habit-items{
-
     }
     /* RUN PART */
     .run-part{
@@ -61,5 +70,18 @@
         justify-content: center;
         padding: 16px 90px;
         margin-right: 0;
+    }
+    /* BMI */
+    .calculator-text{
+        padding: 30px 20px 30px 20px;
+      }
+    .bmi-check{
+        width: auto;
+        margin: 42px 20px;
+    }
+    .bmi-chart{
+        margin: 34px 20px 0;
+        width: auto;
+
     }
 }
