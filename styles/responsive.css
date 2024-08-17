@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    .banner, .habit-items{
+    .banner, .habit-items, .run-content{
         flex-direction: column;
     }
     /* common style */
@@ -20,6 +20,11 @@
     .banner-content{
         margin-right: 0;
       }
+      .banner-title{
+        font-weight: 900;
+        /* modify it as my own */
+        font-size: 3.25rem;
+      }
     .banner-img-text-one{
         bottom: 63px;
         left: -90px;
@@ -34,5 +39,27 @@
     }
     .habit-items{
 
+    }
+    /* RUN PART */
+    .run-part{
+        padding:66px 20px;
+    }
+    .run-content{
+        padding: 31px 33px 35px 33px;
+    }
+    .run-text{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+    }
+    .run-btn{
+        justify-content: center;
+    }
+    .run-btn button{
+        align-items: center;
+        justify-content: center;
+        padding: 16px 90px;
+        margin-right: 0;
     }
 }

@@ -27,7 +27,7 @@
 .section-bg{
   background: rgba(0, 0, 0, 1);
 }
-.calculator-bg{
+.calculator-bg, .run-bg{
   background-color: rgba(34, 34, 34, 1);
 }
 .footer-bg{
@@ -56,11 +56,14 @@
   padding: 0;
 }
 /* body-part */
-/* header part starts here */
-.navbar, .banner, .habit-items{
+.habit-part, .run-part{
+  padding-top: 100px;
+}
+.navbar, .banner, .habit-items, .run-content{
   max-width: 1060px;
   margin: 0 auto;
 }
+/* header part starts here */
 /* navbar content*/
 .navbar{
   justify-content: space-between;
@@ -174,14 +177,10 @@
 }
 /* main part */
 /* habit part starts here */
-.habit-part{
-  padding-top: 100px;
-}
 .habit-title-description{
   max-width: 670px;
   margin: 0 auto;
   text-align: center;
-  border: 2px solid yellow;
 }
 .habit-items{
   gap: 40px;
@@ -189,12 +188,10 @@
 .habit-item{
   /* margin-top uses here */
   margin-top: 58px;
-  border: 1px solid red;
 }
 .habit-item img{
   display: flex;
   margin: 0 auto;
-  border: 1px solid salmon;
   border-radius: 50%;
 }
 .habit-item .text{
@@ -203,3 +200,25 @@
 .habit-item .img-text{
   padding-top: 30px;
 }
+/* run part */
+.run-content{
+  border-radius: 18px;
+  justify-content: space-between;
+}
+.run-text{
+  margin: 40px 54px 40px 54px;
+  width: 40%;
+  margin: 45px auto;
+}
+.run-img{
+  align-items: center;
+  margin: 30px 32px 30px 32px;
+  width: 40%;
+  margin: 30px auto;
+
+}
+.run-img img{
+  border-radius: 18px;
+  width: 100%;
+}
+
