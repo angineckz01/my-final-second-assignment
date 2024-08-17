@@ -1,0 +1,24 @@
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .header-part{
+        padding: 52px 20px 0 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .fa-bars{
+        display: inline-block;
+        font-size: 28px;
+      }
+    .banner-content{
+        margin-right: 0;
+      }
+    .banner-img-text-one{
+        bottom: 63px;
+        left: -90px;
+        /* just for optional aesthetic position */
+        margin-left: 12px;
+      }
+}
