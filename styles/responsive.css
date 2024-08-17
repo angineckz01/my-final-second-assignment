@@ -1,7 +1,12 @@
 @media screen and (max-width:576px) {
-    .banner{
+    .banner, .habit-items{
         flex-direction: column;
     }
+    /* common style */
+      .btn-primary{
+        padding: 16px 20px;
+      }
+    /* header part */
     .header-part{
         padding: 52px 20px 0 20px;
     }
@@ -18,7 +23,16 @@
     .banner-img-text-one{
         bottom: 63px;
         left: -90px;
-        /* just for optional aesthetic position */
         margin-left: 12px;
       }
+    /* habit part */
+    .habit-part{
+        padding: 0 27px;
+    }
+    .habit-title-description{
+        padding: 0 10px;
+    }
+    .habit-items{
+
+    }
 }
