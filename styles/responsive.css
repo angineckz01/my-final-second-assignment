@@ -82,6 +82,18 @@
     .bmi-chart{
         margin: 34px 20px 0;
         width: auto;
+    }
+    /* TEAM PART */
+    .team-part{
 
+    }
+    /*child team text */
+    .team-text{
+      margin: 0 43px;
+    }
+    /* child team-members */
+    .team-members{
+      grid-template-columns: 1fr;
+      margin: 37px 20px 0;
     }
 }
