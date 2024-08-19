@@ -68,7 +68,7 @@
 .habit-part, .run-part{
   padding-top: 100px;
 }
-.navbar, .banner, .habit-items, .run-content, .bmi, .team-members, .footer-part{
+.navbar, .banner, .habit-items, .run-content, .bmi, .team-members, .footer-part, .training-content,.training-heading{
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -230,6 +230,48 @@
 .run-img img{
   border-radius: 18px;
   width: 100%;
+}
+/* TRAINING PART BEGINS HERE */
+.training-part{
+  padding-top: 88px;
+}
+.training-heading{
+  /* border: 2px solid slateblue; */
+  max-width: 670px;
+  margin: 0 auto;
+}
+.training-content{
+  gap: 15px;
+  padding-top: 67px;
+}
+.training-info{
+  padding: 10px 0;
+}
+.training-title{
+  font-weight: 900;
+  font-size: 3rem;
+  text-shadow: 2px 3px black;
+}
+.para{
+  text-shadow: 2px 3px 2px black;
+}
+.training-left{
+  border-radius: 18px;
+  background-image: url(../images/exercise4.png);
+  background-position: center;
+  background-size: cover;
+}
+.training-middle{
+  border-radius: 18px;
+  background-image: url(../images/exercise3.png);
+  background-position: center;
+  background-size: cover;
+}
+.training-right{
+  border-radius: 18px;
+  background-image: url(../images/exercise2.png);
+  background-position: center;
+  background-size: cover;
 }
 /* ========================CALCULATOR PART ====================================*/
 .calculator-text{

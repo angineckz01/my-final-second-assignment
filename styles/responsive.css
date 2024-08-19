@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    .banner, .habit-items, .run-content, .bmi{
+    .banner, .habit-items, .run-content, .training-content, .bmi{
         flex-direction: column;
     }
     /* common style */
@@ -7,7 +7,7 @@
         padding: 16px 20px;
       }
     /* header part */
-    .header-part{
+    .header-part, .training-part{
         padding: 52px 20px 0 20px;
     }
     .nav-links{
